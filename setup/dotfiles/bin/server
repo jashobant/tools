@@ -1,0 +1,11 @@
+#!/usr/bin/expect --
+set timeout -1
+set server [lindex $argv 0]
+if { $server == ""} {
+    set server "bnbaasshell2"
+}
+spawn ssh $server
+expect ">"
+send "zsh\r"
+#expect "~$"
+interact

@@ -1,0 +1,5 @@
+source ~/.dotfiles/zsh/oh-my-zsh.zsh
+source ~/.dotfiles/zsh/system.zsh
+source ~/.dotfiles/zsh/common.zsh
+source ~/.dotfiles/zsh/common-alias.zsh
+
